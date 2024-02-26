@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.first{
+    display:flex;
+    justify-content: center;
+    max-width: 50vm;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+}
+.bgimg{
+    width: 30vm;
+ position: relative;
+ z-index: 9999;
+}
+.secimage{
+    position: relative;
+}
+.secimage video{
+    position: absolute;
+top: 99px;
+right: 79px;
+    
+}
+.faqbox{
+    display: flex;
+  
+    padding: 28px;
+}
+.faqbox{
+   font-size: 20px; 
+    color: white;
+    background-color: #363634;
+    justify-content: space-between;
+    max-width: 70vmax; 
+    margin: auto;
+    align-items: center;
+    cursor: pointer;
+    font-family: Lucida Console ;
+}
+.faq{
+    background:black;
+}
+.faqbox:hover{
+    background-color: rgb(79, 78, 78);
+}
+.fotterinput{
+    border: 1px solid grey;
+    max-width: 70vmax; 
+    margin: auto;
+    align-items: center;
+}
+.pre{
+    color: white;
+    font-family: Helvetica;
+    opacity: 70%;
+}
+.emailask{
+    
+        padding: 5px 25px;
+        border-radius: 5px;
+        font-size: 20px;
+        background-color: rgba(23, 23, 23, 0.2);
+        border: 1px solid rgb(255, 255, 255,0.5);
+    
+}
+.btn-red {
+    color: white;
+    background-color: red;
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+}
