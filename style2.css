@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.first{
-    display:flex;
+.first {
+    display: flex;
     justify-content: center;
     max-width: 50vm;
     margin: auto;
@@ -11,62 +11,73 @@
     font-family: "Noto Sans", sans-serif;
     text-align: center;
 }
-.bgimg{
+
+.bgimg {
     width: 30vm;
- position: relative;
- z-index: 9999;
+    position: relative;
+    z-index: 9999;
 }
-.secimage{
+
+.secimage {
     position: relative;
 }
-.secimage video{
+
+.secimage video {
     position: absolute;
-top: 99px;
-right: 79px;
-    
+    top: 99px;
+    right: 79px;
+
 }
-.faqbox{
+
+.faqbox {
     display: flex;
-  
+
     padding: 28px;
 }
-.faqbox{
-   font-size: 20px; 
+
+.faqbox {
+    font-size: 20px;
     color: white;
     background-color: #363634;
     justify-content: space-between;
-    max-width: 70vmax; 
+    max-width: 70vmax;
     margin: auto;
     align-items: center;
     cursor: pointer;
-    font-family: Lucida Console ;
+    font-family: Lucida Console;
 }
-.faq{
-    background:black;
+
+.faq {
+    background: black;
 }
-.faqbox:hover{
+
+.faqbox:hover {
     background-color: rgb(79, 78, 78);
 }
-.fotterinput{
+
+.fotterinput {
     border: 1px solid grey;
-    max-width: 70vmax; 
+    max-width: 70vmax;
     margin: auto;
     align-items: center;
 }
-.pre{
+
+.pre {
     color: white;
     font-family: Helvetica;
     opacity: 70%;
 }
-.emailask{
-    
-        padding: 5px 25px;
-        border-radius: 5px;
-        font-size: 20px;
-        background-color: rgba(23, 23, 23, 0.2);
-        border: 1px solid rgb(255, 255, 255,0.5);
-    
+
+.emailask {
+
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+
 }
+
 .btn-red {
     color: white;
     background-color: red;
